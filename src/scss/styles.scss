@@ -17,8 +17,31 @@
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
 
+$primary: #bf5700;
+$body-bg: #ededed;
+
 // Import Bootstrap styles:
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+// header lead lighter
+header {
+  .lead {
+    font-weight: lighter;
+  }
+}
+
+.tagline {
+  font-style: italic;
+  text-align: right;
+}
+
+footer {
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+  bottom: 0;
+}
 
 // Import partials:
 
